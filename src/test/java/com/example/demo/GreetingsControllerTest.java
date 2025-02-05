@@ -2,7 +2,6 @@ package com.example.demo;
 
 
 
-import static org.hamcrest.Matchers.equalTo;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
@@ -17,7 +16,7 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
     @SpringBootTest
     @AutoConfigureMockMvc
-    public class HelloControllerTest {
+    public class GreetingsControllerTest {
 
         @Autowired
         private MockMvc mvc;
